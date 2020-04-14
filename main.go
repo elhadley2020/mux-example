@@ -2,10 +2,14 @@ package main
 
 import (
 	"fmt"
-	"http"
-	"ioutl"
-	"json"
+	"net/http"
+	"io/ioutil"
+	"encoding/json"
 )
+
+func main() {
+	fmt.Println("Hello World")
+}
 
 type event struct {
 	ID          string `json:"ID"`
